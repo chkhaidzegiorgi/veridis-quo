@@ -15,7 +15,16 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@veridis-quo/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@veridis-quo/api/data-access-article": [
+        "libs/api/data-access-article/src/index.ts"
+      ],
+      "@veridis-quo/api/feature-article": [
+        "libs/api/feature-article/src/index.ts"
+      ],
+      "@veridis-quo/api/feature-config": [
+        "libs/api/feature-config/src/index.ts"
+      ],
+      "@veridis-quo/api/utils-config": ["libs/api/utils-config/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
